@@ -13,6 +13,11 @@ let userSchema= new Schema({
     },
     code:{
         type:Number
+    },
+    verified:{
+        type:Boolean,
+        default:false,
+
     }
 })
 
